@@ -1,0 +1,15 @@
+s1=float(input("subject1="))
+s2=float(input("subject2="))
+s3=float(input("subject3="))
+s4=float(input("subject4="))
+s5=float(input("subject5="))
+avg=s1+s2+s3+s4+s5
+mean=avg/5
+per=(avg*100)/500
+print("total=",avg)
+print("mean=",mean)
+print("percentage=",per,"%")
+if(per<=35):
+    print("result:fail")
+else:
+    print("result=pass")
